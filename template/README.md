@@ -18,10 +18,8 @@ This is another paragraph.
 
 ## Distribution
 - filename1.txt
-    - SHA1: `SHA1 Hash here`
     - Any additional description (Optional)
 - filename2.txt
-    - SHA1: `SHA1 Hash here`
     - Any additional description (Optional)
 
 ## Solution
@@ -29,8 +27,8 @@ This is another paragraph.
 2. Written here
 
 ### Flag
-`LNC{This is the flag}`
+`HNF{This is the flag}`
 
-## Recommended Reads
+## Recommended Reads (Optional)
 * https://links.to.good.reads
 * https://www.example.com
