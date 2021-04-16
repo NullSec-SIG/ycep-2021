@@ -16,6 +16,6 @@ if (!isset($_GET['secret'])) {
 	die("<br><br>You are not Authorized!");
 }
 echo "<br>flag is not here";
-echo "<!--$flag--Level 2>";
+echo "<!--$flag-->";
 
 ?>
