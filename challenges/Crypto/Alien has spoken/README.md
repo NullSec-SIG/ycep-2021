@@ -1,4 +1,4 @@
-# Challenge Name
+# Alien has spoken!
 
 ## Question Text
 
@@ -9,7 +9,7 @@ This looks alien. What could it be?
 *Creator - Benedict Woo*
 
 ### Hints (Optional)
-1. Maybe pig has pens?
+1. Maybe the alien is a pig?
 
 ## Setup Guide
 1. nil
@@ -19,10 +19,10 @@ This looks alien. What could it be?
 
 ## Solution
 1. Using pigpen cipher, match the shapes with its corresponding letter.
-2. You will get the word 'test'.
+2. You will get the word 'BEEPBLAHBLOOP'.
 
 ### Flag
-`HNF{test}`
+`HNF{BEEPBLAHBLOOP}`
 
 ## Recommended Reads (Optional)
 * https://www.boxentriq.com/code-breaking/pigpen-cipher
