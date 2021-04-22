@@ -1,5 +1,4 @@
-# Challenge Name
-Eat pig?
+# Eat pig?
 
 ## Question Text
 
