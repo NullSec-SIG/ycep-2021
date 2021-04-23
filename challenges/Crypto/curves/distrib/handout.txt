@@ -1,0 +1,21 @@
+[2021-02-03 16:51:00] INFO : Listening on port 22...
+[2021-02-03 16:51:03] INFO : Incoming Connection
+[2021-02-03 16:51:04] INFO : Utilizing standardized encryption method
+[2021-02-03 16:51:04] INFO : Encryption config rundown:
+                                - Eqn : y^2 = x^3 + a(x) + b
+                                - a = 0 
+                                - G = (0x79be667ef9dcbbac55a06295ce870b07029bfcdb2dce28d959f2815b16f81798, 0x483ada7726a3c4655da4fbfc0e1108a8fd17b448a68554199c47d08ffb10d4b8)
+                                - P = 0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffefffffc2f
+[2021-02-03 16:51:04] WARN : Private Key logging is enabled
+[2021-02-03 16:51:04] INFO : Priv Key -
+                                78 aa b5 36 4e 
+                                46 ba b7 79 c5 
+                                89 9e e4 8b 0f
+                                66 65 48 6e 64
+                                11 c4 61 af c0
+                                48 0b 08 13 55
+                                ef 38
+[2021-02-03 16:51:04] INFO : Sending client public Key                                
+[2021-02-03 16:51:04] INFO : Attempting secure tunnel communication...
+[2021-02-03 16:51:07] WARN : Configuration mismatch - host client does not support ECC encryption standard
+[2021-02-03 16:51:08] INFO : Connection aborted 
