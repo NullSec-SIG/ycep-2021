@@ -8,13 +8,13 @@ Find the flag in the format: HNF{PlainText}
 
 Creator - Nicolas Teo
 
-Hints (Optional)
+## Hints (Optional)
 NIL
 
-Setup Guide
+## Setup Guide
 NIL
 
-Distribution
+## Distribution
 kidRSA.txt
 
 
@@ -24,5 +24,5 @@ PT = CT * d (mod n)
 ## Flag
 HNF{2549702164}
 
-Recommended Reads (Optional)
+## Recommended Reads (Optional)
 NIL
