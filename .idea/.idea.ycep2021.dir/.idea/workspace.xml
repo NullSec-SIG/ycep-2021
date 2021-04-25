@@ -15,6 +15,7 @@
       <list>
         <option value="$PROJECT_DIR$/challenges/Crypto/Bacon cipher/README.md" />
         <option value="$PROJECT_DIR$/challenges/Crypto/Binary/README.md" />
+        <option value="$PROJECT_DIR$/challenges/Crypto/Steganography/README.md" />
       </list>
     </option>
   </component>
@@ -36,14 +37,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1619145285366</updated>
-      <workItem from="1619145301639" duration="3044000" />
+      <workItem from="1619145301639" duration="3238000" />
+      <workItem from="1619363086309" duration="1252000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
