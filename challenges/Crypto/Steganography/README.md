@@ -28,3 +28,5 @@ NIL
 `HNF{n0_tHi5_iS_p4TriCk}`
 
 ## Recommended Reads (Optional)
+* https://www.metadata2go.com/
+* https://futureboy.us/stegano/decinput.html
