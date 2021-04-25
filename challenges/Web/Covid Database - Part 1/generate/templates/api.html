@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid Database API</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+    <script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+</head>
+<body>
+    <div class="container-fluid">
+        <h1>Covid Database API (W.I.P.)</h1>
+        <p>Below are some of the api endpoints available. Please use them responsibly!</p>
+        <h4><code>POST /api/login</code></h4>
+        <ul>
+            <li>For users authorization.</li>
+            <li>Please provide user login credentials in the form of json: <code>{"username": USERNAME, "password": PASSWORD}</code></li>
+        </ul>
+        <h4><code>GET /api/data/countries</code></h4>
+        <ul>
+            <li>Gets countries with Covid data available.</li>
+            <li>Data is protected. Please provide <code>Authorization</code> header with the token you got from login.</li>
+        </ul>
+        <h4><code>GET /api/data/countries/&lt;country&gt;</code></h4>
+        <ul>
+            <li>Gets detailed Covid data for a given country.</li>
+            <li>Data is protected. Please provide <code>Authorization</code> header with the token you got from login.</li>
+        </ul>
+        <h4><code>GET /api/users</code></h4>
+        <ul>
+            <li>Gets a list of user account names.</li>
+            <li>Data is protected. Please provide <code>Authorization</code> header with the token you got from login.</li>
+            <li>Admin access only.</li>
+        </ul>
+        <h4><code>GET /api/users/&lt;userid&gt;</code></h4>
+        <ul>
+            <li>Gets detailed User data for a user.</li>
+            <li>Data is protected. Please provide <code>Authorization</code> header with the token you got from login.</li>
+            <li>Admin access only.</li>
+        </ul>
+    </div>
+</body>
+</html>
