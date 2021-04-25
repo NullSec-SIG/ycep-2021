@@ -36,11 +36,11 @@ def authenticate_user(user_id: str, password: str) -> bool:
     if not is_valid_user_id(user_id):
         return False
 
-    use_password = USER_INFO_MAP[user_id]
-    if not use_password:
+    user_info = get_user_info(user_id)
+    if not user_info:
         return False
 
-    if use_password != password:
+    if user_info["password"] != password:
         return False
     
     return True

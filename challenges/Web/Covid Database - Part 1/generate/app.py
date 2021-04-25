@@ -5,6 +5,7 @@ import account_manager
 import data_factory
 
 
+secret = "covidb"
 app = Flask(__name__)
 
 
@@ -14,7 +15,7 @@ def create_token(user_id: str):
         'iat': datetime.now().timestamp(),
         'user_id': user_id
     }
-    encoded = jwt.encode(payload, "covdb", algorithm="HS256")
+    encoded = jwt.encode(payload, secret, algorithm="HS256")
     return encoded
 
 
@@ -31,8 +32,8 @@ def validate_token(auth_data: str, admin: bool = False):
         abort(400, f"Invalid auth type {auth_type}. Only Beaver supported!")
 
     try:
-        decoded = jwt.decode(token, "covdb", algorithms=["HS256"], options={"verify_signature": admin})
-        if admin and decoded.et('user_id') != "43274923":
+        decoded = jwt.decode(token, secret, algorithms=["HS256"], options={"verify_signature": admin})
+        if admin and decoded.get('user_id') != "43274923":
             abort(401, "Requires admin to access.")
     except:
         abort(401, "Invalid auth token. Did you modify it?")

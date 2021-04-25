@@ -9,10 +9,10 @@ This looks alien. What could it be?
 *Creator - Benedict Woo*
 
 ### Hints (Optional)
-1. Maybe the alien is a pig?
+NIL
 
 ## Setup Guide
-1. nil
+NIL
 
 ## Distribution
 - alien.png

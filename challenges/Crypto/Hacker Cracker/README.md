@@ -1,5 +1,4 @@
-# Challenge Name
-Hacker Cracker
+# Hacker Cracker
 
 ## Question Text
 A security hacker is someone who explores methods for breaching defenses and exploiting weaknesses.
@@ -8,7 +7,7 @@ Can you do that?
 *Creator - Elsa*
 
 ### Hints (Optional)
-Binary
+1. Binary
 
 ## Setup Guide
 NIL
@@ -26,3 +25,4 @@ NIL
 `HNF{t0t4llYn0tCr1miN4Ls}`
 
 ## Recommended Reads (Optional)
+NIL
