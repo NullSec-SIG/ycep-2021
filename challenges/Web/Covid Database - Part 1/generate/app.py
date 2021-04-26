@@ -1,10 +1,11 @@
 from datetime import datetime, timedelta
-from flask import Flask, request, jsonify, abort
+from flask import Flask, request, jsonify, abort, render_template
 import jwt
 import account_manager
 import data_factory
 
 
+secret = "covidb"
 app = Flask(__name__)
 
 
@@ -14,11 +15,11 @@ def create_token(user_id: str):
         'iat': datetime.now().timestamp(),
         'user_id': user_id
     }
-    encoded = jwt.encode(payload, "secret", algorithm="HS256")
+    encoded = jwt.encode(payload, secret, algorithm="HS256")
     return encoded
 
 
-def validate_token(auth_data: str):
+def validate_token(auth_data: str, admin: bool = False):
     if not auth_data:
         abort(400, "Missing auth data.")
     
@@ -28,12 +29,14 @@ def validate_token(auth_data: str):
 
     auth_type, token = auth_data_split
     if auth_type != "Beaver":
-        abort(400, f"Invalid auth type {auth_type}.")
+        abort(400, f"Invalid auth type {auth_type}. Only Beaver supported!")
 
     try:
-        decoded = jwt.decode(token, "secret", algorithms=["HS256"], options={"verify_signature": False})
+        decoded = jwt.decode(token, secret, algorithms=["HS256"], options={"verify_signature": admin})
+        if admin and decoded.get('user_id') != "43274923":
+            abort(401, "Requires admin to access.")
     except:
-        abort(401, "Invalid auth token.")
+        abort(401, "Invalid auth token. Did you modify it?")
     
     expire_time = decoded.get("exp")
     if datetime.now().timestamp() > expire_time:
@@ -46,14 +49,13 @@ def validate_token(auth_data: str):
 
 @app.route('/')
 def index():
-    #TODO actual html page.
-    return 'Welcome to Covid Database. Learn more about our RESTful api here!'
+    return render_template("index.html")
 
 
 @app.route('/api')
 def api():
     #TODO actual html documentation.
-    return 'Api docs here.'
+    return render_template("api.html")
 
 
 @app.route('/api/login', methods=["POST"])
@@ -87,8 +89,24 @@ def country(country):
     country_data = data_factory.get_country_details(country)
     if not country_data:
         abort(404, "Country not found.")
-
     return country_data
+
+
+@app.route('/api/users')
+def users():
+    auth_data = request.headers.get("Authorization")
+    validate_token(auth_data, True)
+    return jsonify(account_manager.get_users())
+
+
+@app.route('/api/users/<string:userid>')
+def user(userid):
+    auth_data = request.headers.get("Authorization")
+    validate_token(auth_data, True)
+    user_data = account_manager.get_user_info(userid)
+    if not user_data:
+        abort(404, "User not found.")
+    return jsonify(user_data)
 
 
 @app.errorhandler(400)
@@ -97,7 +115,7 @@ def bad_request(e):
 
 
 @app.errorhandler(401)
-def unauthorised(e):
+def unauthorized(e):
     return jsonify(error=str(e)), 401
 
 
@@ -107,4 +125,4 @@ def resource_not_found(e):
 
 
 if __name__ == "__main__":
-    app.run()
+    app.run(debug=True)

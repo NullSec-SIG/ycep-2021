@@ -23,7 +23,7 @@ NIL
 3. Letter 2: t
 
 ### Flag
-`HNF{ILIKEBACON}`
+`HNF{ilikebacon}`
 
 ## Recommended Reads (Optional)
 NIL
