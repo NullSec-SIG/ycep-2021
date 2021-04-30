@@ -1,5 +1,4 @@
-# Challenge Name
-Hide and Then What Happens?
+# Hide and Then What Happens?
 
 ## Question Text
 Patrick looks like he's hiding something...
