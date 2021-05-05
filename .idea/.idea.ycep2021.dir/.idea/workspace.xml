@@ -1,7 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="b45f60fd-e23a-4ef1-baed-476525f7b7c8" name="Default Changelist" comment="" />
+    <list default="true" id="b45f60fd-e23a-4ef1-baed-476525f7b7c8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/challenges/Forensics/Sound/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/challenges/Forensics/Sound/distrib/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/challenges/Forensics/Sound/distrib/what.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/challenges/Forensics/Sound/generate/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/challenges/Forensics/Sound/solution/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ycep2021.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ycep2021.dir/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +41,7 @@
         <option value="$PROJECT_DIR$/challenges/Crypto/Bacon cipher/README.md" />
         <option value="$PROJECT_DIR$/challenges/Crypto/Binary/README.md" />
         <option value="$PROJECT_DIR$/challenges/Crypto/Steganography/README.md" />
+        <option value="$PROJECT_DIR$/challenges/Forensics/Sound/README.md" />
       </list>
     </option>
   </component>
@@ -40,6 +66,8 @@
       <workItem from="1619145301639" duration="3238000" />
       <workItem from="1619363086309" duration="1662000" />
       <workItem from="1619366490445" duration="85000" />
+      <workItem from="1619402396029" duration="662000" />
+      <workItem from="1620178966148" duration="371000" />
     </task>
     <servers />
   </component>
@@ -48,6 +76,17 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
