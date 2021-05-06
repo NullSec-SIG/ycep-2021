@@ -1,0 +1,5 @@
+The soundwaves are using SSTV Robot 36. Thus to decode
+git clone https://github.com/colaclanth/sstv
+and decode. 
+flag:
+HNF{3pac1_3xp10rAt1on!!$!}
