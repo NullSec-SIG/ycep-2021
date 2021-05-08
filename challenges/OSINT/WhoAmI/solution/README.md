@@ -1,5 +1,3 @@
-## Solution Files
-
-Files related to the solution are to be placed here.
-
-Eg. screenshots, solution scripts
+1. Use the email from the EML file to find the Linkedin of jimkailee@gmail.com
+2. His real name is Lee Mourindinho and with that information you can find his IG. 
+3. The comments of the first post would have the flag.
