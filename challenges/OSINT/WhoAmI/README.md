@@ -2,33 +2,26 @@
 
 ## Question Text
 
-Challenge description and how to play (if applicable).
+Help me find the hamster kidnapper!
 
-This is another paragraph.
 
-*Creator - @YourNickname (or real name)*
+*Creator - Nicolas Teo *
 
 ### Hints (Optional)
-1. Hint 1
-2. Hint 2
+1. Can you find his email?
 
 ## Setup Guide
-1. How to
-2. Set up this challenge
+1. Distrib EML File.
 
 ## Distribution
-- filename1.txt
-    - Any additional description (Optional)
-- filename2.txt
-    - Any additional description (Optional)
+- WHOAMI.eml
 
 ## Solution
-1. Solution to this challenge
-2. Written here
+1. Use the email from the EML file to find the Linkedin of jimkailee@gmail.com
+2. His real name is Lee Mourindinho and with that information you can find his IG. 
+3. The comments of the first post would have the flag.
+
 
 ### Flag
-`HNF{This is the flag}`
+`HNF{h0p3_y0u_3nj0yed!!_0penS0urc3}`
 
-## Recommended Reads (Optional)
-* https://links.to.good.reads
-* https://www.example.com
