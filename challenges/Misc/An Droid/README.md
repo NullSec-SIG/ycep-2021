@@ -20,8 +20,8 @@ NIL
 2. De-compile the .dex with https://github.com/pxb1988/dex2jar to get a .jar file
 3. Unzip the .jar to get the underlying class.
 4. Open with a java de-compiler e.g. IntelliJ to view the source code.
-5. In dev.benergy10.hackerpanel.data.model.LoginDataSource, there is a if condition `var1.equals("hacker") && var2.equals("tester")`
-6. Install and open the apk on a android phone / simulator. Key in `hacker` as username and `tester` as password.
+5. In d.a.a.a.a, there is a if condition `var1.equals("hacker") && var2.equals("bypassthis!")`
+6. Install and open the apk on a android phone / simulator. Key in `hacker` as username and `bypassthis!` as password.
 7. Click on sign in and a new activity will open with the flag.
 
 ### Flag

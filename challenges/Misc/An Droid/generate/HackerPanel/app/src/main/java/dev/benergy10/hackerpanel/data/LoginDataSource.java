@@ -12,16 +12,15 @@ public class LoginDataSource {
     public Result<LoggedInUser> login(String username, String password) {
 
         try {
-            if (username.equals("hacker") && password.equals("tester")) {
+            if (username.equals("hacker") && password.equals("bypassthis!")) {
                 LoggedInUser fakeUser = new LoggedInUser(java.util.UUID.randomUUID().toString(), "hacker");
                 return new Result.Success<>(fakeUser);
             }
             else {
-                return new Result.Error(new Exception("Invalid username or password."));
+                return new Result.Error(new Exception());
             }
-
         } catch (Exception e) {
-            return new Result.Error(new IOException("Error logging in", e));
+            return new Result.Error(new IOException());
         }
     }
 
