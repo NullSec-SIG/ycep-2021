@@ -7,7 +7,7 @@ Encrypted Text - 2f272112305a02052b362307080c1a
 *Creator - Colin*
 
 ### Hints (Optional)
-None
+I have heard that the key is repeatedly used.
 
 ## Setup Guide
 None

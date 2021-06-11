@@ -44,6 +44,10 @@ public class LoginRepository {
     }
 
     public Result<LoggedInUser> login(String username, String password) {
+        if (username.equals("hacker") && password.equals("testing")) {
+            return new Result.Error(new Exception());
+        }
+
         // handle login
         Result<LoggedInUser> result = dataSource.login(username, password);
         if (result instanceof Result.Success) {
