@@ -20,7 +20,7 @@ NIL
 1. Fulfil url queries. add this to url -> ?viewsource&flag&secret
 
 ### Flag
-`HNF{GeR_aT-jG0B}`
+`HNF{aaGeR_aT-jG0Baa}`
 
 ## Recommended Reads (Optional)
 NIL
