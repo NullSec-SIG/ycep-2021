@@ -3,33 +3,25 @@
 
 ## Question Text
 
-Challenge description and how to play (if applicable).
+We're told that the flag is a global variable in this python script, but there doesn't seem to be a way to get it??
 
-This is another paragraph.
-
-*Creator - @YourNickname (or real name)*
+*Creator - Clement | @ApproxNeo
 
 ### Hints (Optional)
-1. Hint 1
-2. Hint 2
+NA
 
 ## Setup Guide
-1. How to
-2. Set up this challenge
+1. Setup and run docker file 
 
 ## Distribution
-- filename1.txt
-    - Any additional description (Optional)
-- filename2.txt
-    - Any additional description (Optional)
+- NA
 
 ## Solution
-1. Solution to this challenge
-2. Written here
+1. Utilize unrestricted string and class formatting in python to access a global variable from a class variable
+2. When prompted for a biography, any text similar to {person.__init__.globals()} would return a dictionary object with all global variables. Flag is within this object
 
 ### Flag
-`HNF{This is the flag}`
+`HNF{4mating-is_d4ngeros}}`
 
 ## Recommended Reads (Optional)
-* https://links.to.good.reads
-* https://www.example.com
+NA

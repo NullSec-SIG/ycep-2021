@@ -1,12 +1,12 @@
-# Imprisoned (Incomplete)
+# Challenge Name
 
 ## Question Text
 
-Classic python jail,
-Constrained by shell and Login(),
-How will you escape?
+Challenge description and how to play (if applicable).
 
-*Creator - Clement Neo | @ApproxNeo
+This is another paragraph.
+
+*Creator - @YourNickname (or real name)*
 
 ### Hints (Optional)
 1. Hint 1
