@@ -2,32 +2,26 @@
 
 ## Question Text
 
-Challenge description and how to play (if applicable).
+We found this wounded QR code, can you recover what's been lost?
 
-This is another paragraph.
-
-*Creator - @YourNickname (or real name)*
+*Creator - Clement | @ApproxNeo
 
 ### Hints (Optional)
-1. Hint 1
-2. Hint 2
+NA
 
 ## Setup Guide
-1. How to
-2. Set up this challenge
+1. Make jpg available
 
 ## Distribution
-- filename1.txt
-    - Any additional description (Optional)
-- filename2.txt
-    - Any additional description (Optional)
-
+- QR.jpg
+   
 ## Solution
-1. Solution to this challenge
-2. Written here
+1. Refer to https://datagenetics.com/blog/november12013/index.html
+2. Using any software, begin reconstructing the QR code. This can involve redrawing the Top Left Squares, and the Timing marks
+3. With enough reconstruction, any QR Code scanner would pick up on and scan the content.
 
 ### Flag
-`HNF{This is the flag}`
+`HNF{t0rn-and-r3built}`
 
 ## Recommended Reads (Optional)
 * https://links.to.good.reads
